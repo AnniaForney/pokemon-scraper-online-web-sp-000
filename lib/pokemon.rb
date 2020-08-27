@@ -14,10 +14,10 @@ class Pokemon
   end
 
   def self.find(id, db)
-    sql = <<-SQL 
+    sql = <<-SQL
     SELECT * FROM pokemon WHERE id = (?);
 
-  SQL 
+  SQL
 
   
   end
